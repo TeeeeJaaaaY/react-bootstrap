@@ -90,7 +90,7 @@ $(document).ready(function($) {
         var $this = $(this);
 
         if( $this.hasClass("ts-separate-bg-element") ){
-            $this.append('<div class="ts-background">');
+            $this.append('<div className="ts-background">');
 
             // Background Color
 
@@ -101,7 +101,7 @@ $(document).ready(function($) {
             // Particles
 
             if( $this.attr("data-bg-particles-line-color") || $this.attr("data-bg-particles-dot-color") ){
-                $this.find(".ts-background").append('<div class="ts-background-particles">');
+                $this.find(".ts-background").append('<div className="ts-background-particles">');
                 $(".ts-background-particles").each(function () {
                     var lineColor = $this.attr("data-bg-particles-line-color");
                     var dotColor = $this.attr("data-bg-particles-dot-color");
@@ -120,7 +120,7 @@ $(document).ready(function($) {
             // Background Image
 
             if( $this.attr("data-bg-image") !== undefined ){
-                $this.find(".ts-background").append('<div class="ts-background-image">');
+                $this.find(".ts-background").append('<div className="ts-background-image">');
                 $this.find(".ts-background-image").css("background-image", "url("+ $this.attr("data-bg-image") +")" );
                 $this.find(".ts-background-image").css("background-size", $this.attr("data-bg-size") );
                 $this.find(".ts-background-image").css("background-position", $this.attr("data-bg-position") );
@@ -201,7 +201,7 @@ $(document).ready(function($) {
     });
 
     $("select").each(function(){
-        $(this).wrap('<div class="select-wrapper"></div>');
+        $(this).wrap('<div className="select-wrapper"></div>');
     });
 
     // Owl Carousel
@@ -240,9 +240,9 @@ $(document).ready(function($) {
             mainClass: "mfp-fade",
             overflowY: "hidden",
             iframe: {
-                markup: '<div class="mfp-iframe-scaler">'+
-                '<div class="mfp-close"></div>'+
-                '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                markup: '<div className="mfp-iframe-scaler">'+
+                '<div className="mfp-close"></div>'+
+                '<iframe className="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
                 '</div>',
                 patterns: {
                     youtube: {
@@ -267,7 +267,7 @@ $(document).ready(function($) {
 
     $(".ts-form-email [type='submit']").each(function(){
         var text = $(this).text();
-        $(this).html("").append("<span>"+ text +"</span>").prepend("<div class='status'><i class='fas fa-circle-notch fa-spin spinner'></i></div>");
+        $(this).html("").append("<span>"+ text +"</span>").prepend("<div className='status'><i className='fas fa-circle-notch fa-spin spinner'></i></div>");
     });
 
     $(".ts-form-email .btn[type='submit']").on("click", function(e){

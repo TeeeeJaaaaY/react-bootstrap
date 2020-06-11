@@ -48,8 +48,8 @@ $headers = 'From: ' .$email . "\r\n";
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 mb_send_mail($to, $subject, $body, $headers);
-    echo '<div class="status-icon valid"><i class="fa fa-check"></i></div>';
+    echo '<div className="status-icon valid"><i className="fa fa-check"></i></div>';
 }
 else{
-    echo '<div class="status-icon invalid"><i class="fa fa-times"></i></div>';
+    echo '<div className="status-icon invalid"><i className="fa fa-times"></i></div>';
 }
