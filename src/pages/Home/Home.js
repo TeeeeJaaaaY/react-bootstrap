@@ -11,7 +11,7 @@ import { Footer } from '../../components/Footer/Footer';
 import { Modal } from '../../components/Modal/Modal';
 
 
-export const Home = () => {
+export const Home = (props) => {
     return (
         <>
             <div className="ts-page-wrapper" id="page-top">
