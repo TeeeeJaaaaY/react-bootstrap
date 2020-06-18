@@ -24,12 +24,13 @@ export const Hero = () => {
                             </a>
                         </figure>
 
-                        <h1>I am Jonathan Doe</h1>
+                        <h1>Tom James</h1>
                         <h1 className="ts-bubble-border">
                             <span className="ts-title-rotate">
-                                <span className="active">Designer</span>
-                                <span>Photographer</span>
-                                <span>Creative Person</span>
+                                <span className="active">Full Stack Developer</span>
+                                <span>DevOps</span>
+                                <span>Frontend</span>
+                                <span>Backend</span>
                             </span>
                         </h1>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Portfolio = () => {
     return (
@@ -8,13 +9,13 @@ export const Portfolio = () => {
                     <h2>Portfolio</h2>
                 </div>
                 <div className="card-columns ts-gallery ts-column-count-4">
-                    <a href="./assets/img/img-work-01.png" className="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                    <Link to="/bgf" href="./assets/img/img-work-01.png" className="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                         <div className="ts-gallery__item-description">
                             <h6 className="ts-opacity__50">Branding</h6>
                             <h4>Pehaz</h4>
                         </div>
                         <img src="./assets/img/img-work-01.png" className="card-img" alt="" />
-                    </a>
+                    </Link>
                     <a href="./assets/img/img-work-02.png" className="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                         <div className="ts-gallery__image">
                             <div className="ts-gallery__item-description">
