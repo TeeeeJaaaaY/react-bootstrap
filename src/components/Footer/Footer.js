@@ -42,86 +42,11 @@ export const Footer = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className="pt-5">
-                        <div className="row">
-                            <div className="col-md-4">
-                                <h3>Let’s Connect</h3>
-                                <div className="ts-column-count-sm-2">
-                                    <a href="#" className="mb-3 d-flex text-white ts-align__vertical">
-                                    <span className="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i className="fab fa-facebook-f"></i>
-                                    </span>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a href="#" className="mb-3 d-flex text-white ts-align__vertical">
-                                    <span className="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i className="fab fa-twitter"></i>
-                                    </span>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a href="#" className="mb-3 d-flex text-white ts-align__vertical">
-                                    <span className="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i className="fab fa-instagram"></i>
-                                    </span>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a href="#" className="mb-3 d-flex text-white ts-align__vertical">
-                                    <span className="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i className="fab fa-pinterest-p"></i>
-                                    </span>
-                                        <span>Pinterest</span>
-                                    </a>
-                                    <a href="#" className="mb-3 d-flex text-white ts-align__vertical">
-                                    <span className="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i className="fab fa-skype"></i>
-                                    </span>
-                                        <span>Skype</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="col-md-8">
-                                <h3>Send Me a Message</h3>
-                                <form id="form-contact" method="post" className="clearfix ts-form ts-form-email" data-php-path="./assets/php/email.php">
-                                    <div className="row">
-                                        <div className="col-md-6 col-sm-6">
-                                            <div className="form-group">
-                                                <label for="form-contact-name">Name *</label>
-                                                <input type="text" className="form-control" id="form-contact-name" name="name" placeholder="Name" required />
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6 col-sm-6">
-                                            <div className="form-group">
-                                                <label for="form-contact-email">Email *</label>
-                                                <input type="email" className="form-control" id="form-contact-email" name="email" placeholder="Email" required />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="form-group">
-                                        <label for="form-contact-subject">Subject *</label>
-                                        <input type="email" className="form-control" id="form-contact-subject" name="subject" placeholder="Subject" required />
-                                    </div>
-                                    <div className="row">
-                                        <div className="col-md-12">
-                                            <div className="form-group">
-                                                <label for="form-contact-message">Message *</label>
-                                                <textarea className="form-control" id="form-contact-message" rows="5" name="message" placeholder="Message" required></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="form-group clearfix">
-                                        <button type="submit" className="btn btn-primary float-right ts-btn-arrow" id="form-contact-submit">Send a Message</button>
-                                    </div>
-                                    <div className="form-contact-status"></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
             <div className="text-dark bg-white">
                 <div className="container py-3 position-relative">
-                    <small>© 2018 ThemeStarz, All Rights Reserved</small>
+                    <small>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></small>
                     <a href="#page-top" className="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-scroll">
                         <i className="fa fa-arrow-up text-white"></i>
                     </a>

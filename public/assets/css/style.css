@@ -1605,6 +1605,27 @@ form.ts-labels-inside-input .form-group label.focused,
     transform: translateY(0);
 }
 
+.ts-item .icon {
+    background-color: white;
+    padding: 1em;
+}
+
+.ts-item .icon img {
+    max-width: 50px;
+    height: auto;
+}
+
+.service-icon {
+    opacity: 1;
+}
+
+.service-icon i {
+    padding: 1.5em;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.5em;
+}
+
 .ts-item h4 {
     transition-delay: .05s;
 }

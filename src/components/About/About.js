@@ -9,14 +9,18 @@ export const About = () => {
                 </div>
                 <div className="row ts-align__vertical">
                     <div className="col-md-6">
-                        <img src="./assets/img/img-man-looking.jpg" alt="" className="mw-100 mb-5" />
+                        <img src="./assets/img/cressing-profile-5.jpg" alt="Tom James, Cressing FC" className="mw-100 mb-5" />
                     </div>
                     <div className="col-md-6">
                         <h4 className="ts-bubble-border">Hi There</h4>
                         <p>
-                            In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum
-                            ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta
-                            sem turpis quis leo. Nulla in feugiat elit.
+                        I'm a Full Stack Developer with 9 years agency experience.
+                        Involved in all stages of the development process from planning, technical specifications, frontend, backend, infrastructure and deployment. 
+                        Using various programming languages and technologies. Competent server provisioning via command line, continuous integration/deployment and git workflow.
+                        </p>
+
+                        <p>
+                        My hobbies and interests include playing football for a local team on a Saturday including involvment on the committee, golf, all things tech, 00's hiphop and R&B and squeezing in the odd hour or two gaming.
                         </p>
                         <dl className="ts-column-count-2">
                             <dt>Name:</dt>
@@ -24,15 +28,15 @@ export const About = () => {
                             <dt>Phone:</dt>
                             <dd>07966008578</dd>
                             <dt>Email:</dt>
-                            <dd>tom@teeeejaaaay.co.uk</dd>
+                            <dd><a href="mailto:tom@teeeejaaaay.co.uk">tom@teeeejaaaay.co.uk</a></dd>
                             <dt>Twitter:</dt>
                             <dd>TeeeeJaaaaY</dd>
+                            <dt>linkedIn:</dt>
+                            <dd><a href="https://www.linkedin.com/in/tom-james-b492b443/">Tom James</a></dd>
+                            <dt>GitHub:</dt>
+                            <dd><a href="https://github.com/TeeeeJaaaaY">TeeeeJaaaaY</a></dd>
                         </dl>
                         <hr className="ts-hr-light mb-5" />
-                        <a href="#contact" className="ts-btn-effect mr-2">
-                            <span className="ts-visible btn btn-primary ts-btn-arrow">Contact Me</span>
-                            <span className="ts-hidden btn btn-primary ts-btn-arrow" data-bg-color="#d44729">Contact Me</span>
-                        </a>
                         <a href="#contact" className="ts-btn-effect mr-2">
                             <span className="ts-visible btn btn-outline-light">
                                 <i className="fa fa-download small mr-2"></i>

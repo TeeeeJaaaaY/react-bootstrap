@@ -6,24 +6,6 @@ export const Hero = () => {
             <div className="container position-relative h-100 ts-align__vertical">
                 <div className="row w-100">
                     <div className="col-md-8">
-                        <figure className="ts-social-icons mb-4">
-                            <a href="#" className="mr-3">
-                                <i className="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" className="mr-3">
-                                <i className="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" className="mr-3">
-                                <i className="fab fa-pinterest"></i>
-                            </a>
-                            <a href="#" className="mr-3">
-                                <i className="fab fa-slack"></i>
-                            </a>
-                            <a href="#" className="mr-3">
-                                <i className="fab fa-instagram"></i>
-                            </a>
-                        </figure>
-
                         <h1>Tom James</h1>
                         <h1 className="ts-bubble-border">
                             <span className="ts-title-rotate">
@@ -48,7 +30,7 @@ export const Hero = () => {
             </div>
 
             <div className="ts-background">
-                <div className="ts-background-image" data-bg-image="./assets/img/bg-hero.jpg"></div>
+                <div className="ts-background-image" data-bg-image="./assets/img/hero-honeymoon-2.jpg"></div>
             </div>
 
         </div>

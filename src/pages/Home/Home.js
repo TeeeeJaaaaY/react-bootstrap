@@ -26,13 +26,9 @@ export const Home = (props) => {
 
                     <About />
 
-                    <CTA />
-
                     <Portfolio />
 
                     <Stats />
-
-                    <Testimonials />
 
                 </main>
 
