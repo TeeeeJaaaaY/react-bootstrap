@@ -19,25 +19,23 @@ export const About = () => {
                         Using various programming languages and technologies. Competent server provisioning via command line, continuous integration/deployment and git workflow.
                         </p>
 
+                        <p>Experienced in the development of bespoke WordPress themes, heavily involved in the build process of 100s of themes over the last nine years.</p>
+
                         <p>
                         My hobbies and interests include playing football for a local team on a Saturday including involvment on the committee, golf, all things tech, 00's hiphop and R&B and squeezing in the odd hour or two gaming.
                         </p>
                         <dl className="ts-column-count-2">
                             <dt>Name:</dt>
                             <dd>Thomas James</dd>
-                            <dt>Phone:</dt>
-                            <dd>07966008578</dd>
                             <dt>Email:</dt>
                             <dd><a href="mailto:tom@teeeejaaaay.co.uk">tom@teeeejaaaay.co.uk</a></dd>
                             <dt>Twitter:</dt>
                             <dd>TeeeeJaaaaY</dd>
                             <dt>linkedIn:</dt>
                             <dd><a href="https://www.linkedin.com/in/tom-james-b492b443/">Tom James</a></dd>
-                            <dt>GitHub:</dt>
-                            <dd><a href="https://github.com/TeeeeJaaaaY">TeeeeJaaaaY</a></dd>
                         </dl>
                         <hr className="ts-hr-light mb-5" />
-                        <a href="#contact" className="ts-btn-effect mr-2">
+                        <a href="./assets/tom-james-full-stack-engineer-CV.pdf" target="_blank" rel="noreferrer" className="ts-btn-effect mr-2">
                             <span className="ts-visible btn btn-outline-light">
                                 <i className="fa fa-download small mr-2"></i>
                                 Download CV

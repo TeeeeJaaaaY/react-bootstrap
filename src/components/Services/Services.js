@@ -13,7 +13,7 @@ export const Services = () => {
                             <div className="ts-item-content">
                                 <div className="ts-item-header">
                                     <p className="service-icon">
-                                        <i class="fas fa-code"></i>
+                                        <i className="fas fa-code"></i>
                                     </p>
                                 </div>
                                 <div className="ts-item-body">
@@ -23,8 +23,8 @@ export const Services = () => {
                                     </p>
                                 </div>
                                 <div className="ts-item-footer">
-                                    <a href="#" data-toggle="modal" data-target="#modal" className="ts-link-arrow-effect">
-                                        <span>Read More</span>
+                                    <a href="#portfolio" className="ts-link-arrow-effect">
+                                        <span>Portfolio</span>
                                     </a>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ export const Services = () => {
                             <div className="ts-item-content">
                                 <div className="ts-item-header">
                                     <p className="service-icon">
-                                        <i class="fas fa-terminal"></i>
+                                        <i className="fas fa-terminal"></i>
                                     </p>
                                 </div>
                                 <div className="ts-item-body">
@@ -45,8 +45,8 @@ export const Services = () => {
                                     </p>
                                 </div>
                                 <div className="ts-item-footer">
-                                    <a href="#" data-toggle="modal" data-target="#modal" className="ts-link-arrow-effect">
-                                        <span>Read More</span>
+                                    <a href="#portfolio" className="ts-link-arrow-effect">
+                                        <span>Portfolio</span>
                                     </a>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ export const Services = () => {
                             <div className="ts-item-content">
                                 <div className="ts-item-header">
                                     <p className="service-icon">
-                                        <i class="fas fa-tasks"></i>
+                                        <i className="fas fa-tasks"></i>
                                     </p>
                                 </div>
                                 <div className="ts-item-body">
@@ -67,8 +67,8 @@ export const Services = () => {
                                     </p>
                                 </div>
                                 <div className="ts-item-footer">
-                                    <a href="#" data-toggle="modal" data-target="#modal" className="ts-link-arrow-effect">
-                                        <span>Read More</span>
+                                    <a href="#portfolio" className="ts-link-arrow-effect">
+                                        <span>Portfolio</span>
                                     </a>
                                 </div>
                             </div>

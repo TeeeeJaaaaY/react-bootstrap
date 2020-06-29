@@ -12,13 +12,9 @@ export const Nav = () => {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div className="navbar-nav d-block d-lg-flex ml-auto text-right">
-                          <a className="nav-item nav-link active ts-scroll" href="#page-top">Home <span className="sr-only">(current)</span></a>
-                          <a className="nav-item nav-link ts-scroll" href="#my-services">Services</a>
+                          <a className="nav-item nav-link ts-scroll" href="#my-services">Skillset</a>
                           <a className="nav-item nav-link ts-scroll" href="#about-me">About Me</a>
-                          <a className="nav-item nav-link ts-scroll" href="#my-skills">Skills</a>
                           <a className="nav-item nav-link ts-scroll" href="#portfolio">Portfolio</a>
-                          <a className="nav-item nav-link ts-scroll" href="#testimonials">Clients</a>
-                          <a className="nav-item nav-link ts-scroll mr-2" href="#form-contact">Contact</a>
                       </div>
                   </div>
               </div>

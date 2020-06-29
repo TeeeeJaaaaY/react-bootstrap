@@ -28,8 +28,6 @@ export const Home = (props) => {
 
                     <Portfolio />
 
-                    <Stats />
-
                 </main>
 
                 <Footer />
