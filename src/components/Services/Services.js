@@ -41,7 +41,7 @@ export const Services = () => {
                                 <div className="ts-item-body">
                                     <h4>DevOps</h4>
                                     <p className="mb-0">
-                                        I've provisioned, managed and maintained multiple Digital Ocean droplets. Created a continuous integration script from gitlab to WPEngine. Handled SSL and security integration. DNS management and vHost configurations for Nginx and Apache
+                                        Provisioned, managed and maintained multiple Digital Ocean droplets. Created a continuous integration script from gitlab to WPEngine. Handled SSL and security integration. DNS management and vHost configurations for Nginx and Apache
                                     </p>
                                 </div>
                                 <div className="ts-item-footer">

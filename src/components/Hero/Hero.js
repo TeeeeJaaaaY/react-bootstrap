@@ -30,7 +30,7 @@ export const Hero = () => {
             </div>
 
             <div className="ts-background">
-                <div className="ts-background-image" data-bg-image="./assets/img/hero-honeymoon-2.jpg"></div>
+                <div className="ts-background-image" data-bg-image="./assets/img/hero-honeymoon-3.jpg"></div>
             </div>
 
         </div>

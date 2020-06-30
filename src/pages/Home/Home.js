@@ -9,6 +9,7 @@ import { Stats } from '../../components/Stats/Stats';
 import { Testimonials } from '../../components/Testimonials/Testimonials';
 import { Footer } from '../../components/Footer/Footer';
 import { Modal } from '../../components/Modal/Modal';
+import { Header } from '../../components/Header/Header';
 
 
 export const Home = (props) => {
@@ -18,7 +19,7 @@ export const Home = (props) => {
 
                 <Nav />
 
-                <Hero />
+                <Header />
 
                 <main id="ts-content">
             
