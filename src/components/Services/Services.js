@@ -63,7 +63,7 @@ export const Services = () => {
                                 <div className="ts-item-body">
                                     <h4>Project Management</h4>
                                     <p className="mb-0">
-                                        Project management experience including the planning and development of new and existing websites, tecnical specifications, sprint planning, code reviews and mentoring.
+                                        Project management experience including the planning and development of new and existing websites, technical specifications, sprint planning, code reviews and mentoring.
                                     </p>
                                 </div>
                                 <div className="ts-item-footer">

@@ -22,7 +22,7 @@ export const About = () => {
                         <p>Experienced in the development of bespoke WordPress themes, heavily involved in the build process of 100s of themes over the last nine years.</p>
 
                         <p>
-                        My hobbies and interests include playing football for a local team on a Saturday including involvment on the committee, golf, all things tech, 00's hiphop and R&B and squeezing in the odd hour or two gaming.
+                        My hobbies and interests include playing football for a local team on a Saturday including involvement on the committee, golf, all things tech, 00's hiphop and R&B and squeezing in the odd hour or two gaming.
                         </p>
                         <dl className="ts-column-count-2">
                             <dt>Name:</dt>
